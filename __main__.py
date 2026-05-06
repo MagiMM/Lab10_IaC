@@ -22,6 +22,9 @@ branch_protection = github.BranchProtection("main-protection",
     repository_id=repo.node_id,
     pattern="main",
     enforce_admins=True,
+    required_pull_request_reviews=[github.BranchProtectionRequiredPullRequestReviewArgs(
+        required_approving_review_count=1,
+    )],
     opts=pulumi.ResourceOptions(provider=provider, depends_on=[repo])
 )
 

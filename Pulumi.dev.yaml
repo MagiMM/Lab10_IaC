@@ -1,0 +1,4 @@
+encryptionsalt: v1:tpK/CIcrQII=:v1:g0McSJTWTkxgonr4:mUthZsyCf6tRZv5iyvZ3+jTPxwUb4w==
+config:
+  pulumi-lab:github_token:
+    secure: v1:48rMNF7Es4wKdZ7q:O7jM7rSTPGuxLiLJG0RIkuT7iNsp1oLiY8cBe5SAc3kawUpOorPo7cLFq0DqTSKtDYzEHVbecUs=

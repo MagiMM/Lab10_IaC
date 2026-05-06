@@ -3,3 +3,5 @@
 .pulumi-home
 .pulumi-state
 .pulumi/
+__pycache__/
+*.pyc
